@@ -25,7 +25,6 @@ pandas
 pytest
 pytest-asyncio
 
-
 pydantic
 
 #AI
