@@ -48,7 +48,7 @@ python -m main --simulation --duration 3600
 
 ### Тестирование подключения к биржам
 ```bash
-python -m src.main --test-connections
+python -m main --test-connections
 ```
 
 ## Структура проекта
