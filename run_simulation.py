@@ -39,7 +39,7 @@ def main():
     args = parser.parse_args()
     
     # Формируем команду для запуска main.py
-    cmd = [sys.executable, 'src/main.py']
+    cmd = [sys.executable, 'main.py']
     
     if args.live:
         cmd.append('--live')
