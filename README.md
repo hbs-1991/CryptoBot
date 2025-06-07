@@ -43,7 +43,7 @@ cp .env.example .env
 
 ### Режим симуляции (без реальных сделок)
 ```bash
-python -m src.main --simulation --duration 3600
+python -m main --simulation --duration 3600
 ```
 
 ### Тестирование подключения к биржам
