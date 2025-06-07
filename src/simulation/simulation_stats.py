@@ -543,20 +543,7 @@ class SimulationStatsCollector:
                 plt.savefig(os.path.join(output_dir, f"{name}_strategy_profit.png"))
                 plt.close()
 
-        # Графики временных рядов (если есть в данных)
-        if "time_series_data" in data and data["time_series_data"]:
-            time_series = data["time_series_data"]
-            
-            if "timestamps" in time_series and "cumulative_profit" in time_series:
-                plt.figure(figsize=(12, 6))
-                plt.plot(time_series["timestamps"], time_series["cumulative_profit"])
-                plt.title(f"Cumulative Profit Over Time - {name}")
-                plt.xlabel("Time")
-                plt.ylabel("Cumulative Profit")
-                plt.grid(True, alpha=0.3)
-                plt.tight_layout()
-                plt.savefig(os.path.join(output_dir, f"{name}_cumulative_profit.png"))
-                plt.close()
+
 
         self.logger.info(f"Generated {name} analysis plots in {output_dir}")# Получаем данные для сравнения
         df = self.compare_simulations()
