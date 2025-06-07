@@ -1,0 +1,32 @@
+# API интеграции с криптовалютными биржами
+ccxt
+
+# HTTP-клиент для асинхронных запросов
+aiohttp
+
+# Логирование
+loguru
+
+# Работа с .env файлами
+python-dotenv
+
+# Работа с базами данных
+sqlalchemy
+alembic
+
+# Телеграм-бот для уведомлений
+python-telegram-bot
+
+# Анализ данных и математические вычисления
+numpy
+pandas
+
+# Для тестирования
+pytest
+pytest-asyncio
+
+
+pydantic
+
+#AI
+anthropic

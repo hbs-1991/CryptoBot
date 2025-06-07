@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": 1649524800000,
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "ask": 42500.50,
+    "bid": 42450.25,
+    "volume": 25.3456
+  },
+  {
+    "timestamp": 1649524800000,
+    "exchange": "kraken",
+    "symbol": "BTC/USDT",
+    "ask": 42600.75,
+    "bid": 42520.80,
+    "volume": 18.9234
+  },
+  {
+    "timestamp": 1649524860000,
+    "exchange": "binance",
+    "symbol": "BTC/USDT",
+    "ask": 42520.60,
+    "bid": 42460.35,
+    "volume": 22.7654
+  },
+  {
+    "timestamp": 1649524860000,
+    "exchange": "kraken",
+    "symbol": "BTC/USDT",
+    "ask": 42590.25,
+    "bid": 42500.10,
+    "volume": 19.3456
+  },
+  {
+    "timestamp": 1649524920000,
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "ask": 3250.75,
+    "bid": 3240.50,
+    "volume": 105.4321
+  },
+  {
+    "timestamp": 1649524920000,
+    "exchange": "kraken",
+    "symbol": "ETH/USDT",
+    "ask": 3260.25,
+    "bid": 3245.80,
+    "volume": 98.7654
+  },
+  {
+    "timestamp": 1649524980000,
+    "exchange": "binance",
+    "symbol": "ETH/USDT",
+    "ask": 3252.60,
+    "bid": 3242.30,
+    "volume": 110.5432
+  },
+  {
+    "timestamp": 1649524980000,
+    "exchange": "kraken",
+    "symbol": "ETH/USDT",
+    "ask": 3258.40,
+    "bid": 3243.90,
+    "volume": 95.6789
+  }
+] 
